@@ -3,139 +3,134 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Poojith Rangineni</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/ball.png" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="header-row"> 
-        <div class="box"><h1>Poojith Rangineni</h1></div>
-        <div class="box">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+    <div class="container-fluid">
+      <div class="row bg-primary text-light">
+        <div class="col-lg-8">
+          <h1>My Portfolio</h1>
+        </div>
+        <div class="col-lg-4">
+          <nav class="navbar navbar-expand-lg">
+            <ul class="navbar-nav">
+              <li class="nav-item h4">
+                <a href="#home" class="nav-link text-light">Home</a>
+              </li>
+              <li class="nav-item h4">
+                <a href="#skills" class="nav-link text-light">Skills</a>
+              </li>
+              <li class="nav-item h4">
+                <a href="#projects" class="nav-link text-light">Projects</a>
+              </li>
+              <li class="nav-item h4">
+                <a href="#about" class="nav-link text-light">About</a>
+              </li>
+              <li class="nav-item h4">
+                <a href="#contact" class="nav-link text-light">Contact</a>
+              </li>
+              
+            </ul>
+          </nav>
         </div>
       </div>
 
-      <div class="row" id="home">
-        <div style="display: flex;padding-top: 50px;">
-          <div class="box">
-            <h1>Full Stack Developer</h1>
+      <div class="row mt-5 p-3" id="home">
+        
+          <div class="col-lg-8">
+            <h1>Data Analyst</h1>
             <p>
-              A Full Stack Developer is a software engineer who is proficient in both front-end and back-end development.They
-              are responsible for building and maintaining the entire application stack — the set of technologies that make 
-              up both the client-side (user interface) and the server-side (backend logic, database, etc.) of a web application.
-              Full Stack Developers are highly versatile and capable of handling the end-to-end developmentof a project, from
-              its conception to its deployment.
+              A Data Analyst is responsible for collecting, processing, and analyzing data to uncover trends and insights that drive business decisions. They work with tools like SQL, Python, Excel, and data visualization platforms such as Tableau or Power BI to transform raw data into meaningful reports. By applying statistical techniques and predictive modeling, they help organizations optimize performance, identify opportunities, and solve complex problems. A strong understanding of databases, data cleaning, and business intelligence is essential for success in this role.
             </p>
-            <button>Button 1</button>
-            <button>Button 1</button>
+           
+            
           </div>
-          <div class="box">
-            <img src="https://picsum.photos/id/2/400/400" />
+          <div class="col-lg-4">
+            <img  class="w-75" src="data-analysis.webp" />
           </div>
         </div>
       </div>
+      <div class="row mt-5 p-3" id="skills">
+        <h2>Skills</h2>
+        <div class="col-lg-4">
+          <div class="bg-success rounded p-5 h2">Python</div>
+        </div>
+        <div class="col-lg-4">
+          <div class="bg-info rounded p-5 h2">Power BI</div>
+        </div>
+        <div class="col-lg-4">
+          <div class="bg-warning rounded p-5 h2">Tableau</div>
+        </div>
+      </div>
 
-      <div id="projects" class="row" style="background-color: lightcoral">
-        <h1>Projects</h1>
-        <div style="display: flex">
-          <div class="box">
-            <h3><a href="https://poojithrangineni.github.io/temp">Inventory Management System</a></h3>
-            <p>
-              A Simple Inventory Management System is a web-based application designed to help businesses
-              or individuals track, manage, and organize inventory items. It allows users to easily add,
-              update, view, and delete inventory records. The system is built using PHP for server-side 
-              logic, jQuery for dynamic user interactions, and HTML and CSS for structuring and styling the
-              web interface.
-              This project is ideal for learning about web development and practical applications of PHP, 
-              jQuery, and frontend design principles.
-            </p>
+      
+
+      <div class="row m-3 mt-5" id="projects">
+        <div class="col-lg-6">
+          <div>
+            <img class="w-75" src="assets/images/officedesk.jpg">
           </div>
-
-          <div class="box">
-            <h3>Project 2</h3>
+        </div>
+        <div class="col-lg-6">
+          <div>
+            <h3>Project1</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              repellendus, earum numquam consectetur eos quas ad laborum
+              asperiores rem veniam nostrum sapiente, itaque dolores amet?
+              Inventore consequatur distinctio corporis qui?
             </p>
-          </div>
-
-          <div class="box">
-            <h3>Project 3</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
+            <button class="btn btn-outline-success">Know More</button>
           </div>
         </div>
       </div>
-      <div id="services" class="row" style="background-color: lightblue">
-        <h1>Services</h1>
-        <div style="display: flex">
-          <div class="box">
-            <h3>Web App Development</h3>
+      <div class="row m-3 mt-5">
+        
+        <div class="col-lg-6">
+          <div>
+            <h3>Project2</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              repellendus, earum numquam consectetur eos quas ad laborum
+              asperiores rem veniam nostrum sapiente, itaque dolores amet?
+              Inventore consequatur distinctio corporis qui?
             </p>
-          </div>
-
-          <div class="box">
-            <h3>Mobile App Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
-          </div>
-
-          <div class="box">
-            <h3>Backend Development</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quia nobis eligendi reiciendis. Esse a possimus eum est veritatis
-              aliquid ut eveniet. Et illum odio ut voluptates molestiae?
-              Perspiciatis, ab.
-            </p>
+            <button class="btn btn-outline-primary">Know More</button>
           </div>
         </div>
+        <div class="col-lg-6">
+            <div>
+              <img class="w-75" src="assets/images/meeting.jpg">
+            </div>
+          </div>
       </div>
-      <div id="about" class="row">
+
+      
+      <div id="about" class="row bg-success rounded p-5">
         <h1>About</h1>
-        <h3>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint
           optio labore a obcaecati. Ullam distinctio corrupti autem. Veritatis
           ipsa veniam deserunt asperiores nesciunt at provident itaque
           cupiditate vel dolor.
-        </h3>
+        </p>
         <h2>Skills</h2>
-        <h3>Java, Python, Reactjs</h3>
+        <p><b>Java, Python, Reactjs</b></p>
         <p>Display the logo of all the technologies you know.</p>
       </div>
-      <div
-        id="contact"
-        class="row"
-        style="background-color: lightgoldenrodyellow"
-      >
+      
+      <div id="contact" class="row bg-info rounded p-5">
         <h1>Contact</h1>
-        <div style="display: flex">
+        
          
 
-          <div class="box">
+          <div class="col-lg-6">
             <h3>Contact Form</h3>
             <p>
              <input type="text" placeholder="Enter Name">
@@ -149,7 +144,7 @@
              <button>Send</button>
           </div>
 
-          <div class="box">
+          <div class="col-lg-6">
             <h3>Poojith Rangineni</h3>
             <p>
               <b>Address: </b>KPHP,Kukatpally,Hyderabad,500054
@@ -161,9 +156,23 @@
               <b>Phone Number: </b>+91 343 445 6789
             </p>
           </div>
-        </div>
+        
       </div>
-      <div class="footer">@copyright 2024. All rights reserved.</div>
+
+      <div class="row">
+        <div class="p-5 bg-secondary">
+            @Copyright 2025. All rights reserved.
+          </div>
+      </div>
+
+    
+
     </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
